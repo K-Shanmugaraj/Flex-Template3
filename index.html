@@ -8,6 +8,7 @@
     <style>
         *{
             margin: 0;
+            box-sizing: border-box;
         }
         .nav{
             display: flex;
@@ -124,8 +125,8 @@
             position: absolute;
             background-color: #00000091;
             padding: 30px;
-            width: 440px;;
-            height: 90px;
+            width: 500px;;
+            height: 150px;
             color: white;
             font-size: 29.3px;
         }
@@ -160,7 +161,7 @@
           
         }
         .ads{
-            width: 600px;
+            /* width: 600px; */
             
             & h3{
                 padding-bottom: 20px;
@@ -205,9 +206,13 @@
             padding-top: 50px;
             justify-content: space-evenly;
         }
-        @media screen and (max-width:576px){
-            .nav{
+        @media only screen and (max-width:576px){
+            .nav li{
+                padding:5px;
                 flex-wrap: wrap;
+            }
+            .nav img{
+                width: 60px;
             }
             .box1{
                 flex-wrap: wrap;
@@ -216,9 +221,21 @@
                     margin-bottom: 20px;
                 }
             }
+            .half1 p{
+            margin-top: 350px;
+            position: absolute;
+            background-color: #00000091;
+            padding: 30px;
+            width: 440px;;
+            height: 150px;
+            color: white;
+            font-size: 29.3px;
+        }
+
             .box2{
                 flex-wrap: wrap;
             }
+            
             .box3{
                 flex-wrap: wrap;
             }
@@ -226,7 +243,7 @@
                 flex-wrap: wrap;
                 justify-content: start;
             }
-        }
+        
     </style>
 </head>
 <body>
@@ -239,7 +256,7 @@
             </ul>
         </li><li>Link Text</li>
     </div>
-        <div><img class="img" src="logo.png" alt=""></div>
+        <div><img class="img" src="image/logo.png" alt=""></div>
     </div>
     <div class="box1">
         <div class="cont0">
@@ -267,12 +284,12 @@
         <div class="half1">
             
             <P>"If you look the right way, you can see that the whole world is a garden."</P>
-            <img src="Screenshot 2024-08-26 132819.png">
+            <img src="image/Screenshot 2024-08-26 132819.png">
         </div>
         <div class="half2">
-            <div><img src="Screenshot 2024-08-26 132819.png"><p><big><b>Advantages of purchasing</b></big><br><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</small><br><button>Readmore</button></p></div>
-            <div><img src="Screenshot 2024-08-26 132819.png"><p><big><b>Advantages of purchasing</b></big><br><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</small><br><button>Readmore</button></p></div>
-            <div><img src="Screenshot 2024-08-26 132819.png"><p><big><b>Advantages of purchasing</b></big><br><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</small><br><button>Readmore</button></p></div>
+            <div><img src="image/Screenshot 2024-08-26 132819.png"><p><big><b>Advantages of purchasing</b></big><br><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</small><br><button>Readmore</button></p></div>
+            <div><img src="image/Screenshot 2024-08-26 132819.png"><p><big><b>Advantages of purchasing</b></big><br><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</small><br><button>Readmore</button></p></div>
+            <div><img src="image/Screenshot 2024-08-26 132819.png"><p><big><b>Advantages of purchasing</b></big><br><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</small><br><button>Readmore</button></p></div>
         </div>
     </div> 
     <br>
@@ -280,12 +297,12 @@
     <p>From low-maintenance succulents and air-purifying houseplants to exotic tropicals and blooming beauties, we offer a diverse range of plants for every space and style.</p></div>
     <div class="box3">
         <div class="bhalf">
-            <img class="img" src="Screenshot 2024-08-26 132819.png">
+            <img class="img" src="image/Screenshot 2024-08-26 132819.png">
             <p>We carefully package and ship your plants to ensure they arrive healthy and ready to grow in your home or office.<br><button>Readmore</button></p>
             
         </div>
         <div class="bhalf">
-            <img class="img" src="Screenshot 2024-08-26 132819.png">
+            <img class="img" src="image/Screenshot 2024-08-26 132819.png">
             <p>This discussion highlights the advantages of purchasing plants through an online store. It emphasizes the convenience of home delivery, the wide variety of plants a <br><button>Readmore</button></p>
         </div>
     </div>
